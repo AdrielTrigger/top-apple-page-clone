@@ -1,0 +1,141 @@
+/* General and Misc */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans;
+}
+
+.centralizer {
+    max-width: 1100px;
+    min-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+/*____________________________________________________________*/
+
+/* Nav Menu & Cover */
+.cover {
+    background: url(images/cover-photo.jpg) no-repeat;
+    background-size: cover;
+    height: 540px;
+    color: white;
+    position: relative;
+    overflow: auto;
+}
+
+nav {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 800px;
+    height: 30px;
+    margin: 70px auto 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(102, 102, 102),rgb(80, 80, 80) 50%, rgb(150, 150, 150) 50%, gray);
+}
+
+nav p {
+    margin-top: 4px;
+}
+
+.bordered {
+    border-right: 1px solid gray;
+}
+
+.bordered:hover {
+    background: linear-gradient(rgb(83, 83, 83),rgb(63, 63, 63) 50%, rgb(131, 131, 131) 50%, rgb(107, 107, 107));
+}
+
+nav img {
+    height: 25px;
+}
+
+nav input {
+    border-radius: 25px;
+    width: 100px;
+    height: 20px;
+    margin-top: 4px;    
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/*____________________________________________________________*/
+
+/* Other Stuff */
+.others {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+.others div {
+    height: 200px;
+    flex: 1;
+    margin: 0 2px 0 2px;
+}
+
+.other1 {
+    background: url(images/iphone5s.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.other2 {
+    background: url(images/iphone5c.jpg) no-repeat;
+    background-size: cover;
+}
+
+.other3 {
+    background: url(images/ipad.jpg) no-repeat;
+    background-size: cover;
+}
+
+.other4 {
+    background: url(images/ipod.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*____________________________________________________________*/
+
+/* Footer Stuff*/
+footer {
+    font-size: 10px;
+}
+
+footer p {
+    float: left;
+}
+
+footer a {
+    color: rgb(64, 64, 255);
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    height: 16px;
+    float: right;
+    color: rgb(64, 64, 255);
+}
+
+.footer-menu div {
+    padding: 0 5px 0 5px;
+}
+
+.footer-menu img {
+    height: 16px;
+}
+
+.borderedf {
+    border-right: 1px solid gray;
+}
