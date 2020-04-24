@@ -77,12 +77,13 @@ h1, h2 {
     display: flex;
     margin-top: 2px;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .others div {
     height: 200px;
+    max-width: 24.8%;
     flex: 1;
-    margin: 0 2px 0 2px;
 }
 
 .other1 {
